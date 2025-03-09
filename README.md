@@ -69,4 +69,3 @@ This project uses AI-generated support, explicitly documented with prompts used.
 
 ---
 
-© [Your Name], Sabancı University, Spring 2025
