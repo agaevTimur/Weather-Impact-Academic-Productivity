@@ -64,8 +64,5 @@ Data will be recorded systematically, immediately after each study session, to m
 ## How to Reproduce
 Instructions to set up and reproduce the analysis will be provided clearly in `README.md`.
 
-## Academic Integrity
-This project uses AI-generated support, explicitly documented with prompts used. All resources are cited appropriately.
 
----
 
