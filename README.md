@@ -41,17 +41,27 @@ Data will be collected immediately after study sessions to minimize recall bias.
 ## Limitations
 - Data from a single individual limits the generalizability of findings.
 - Potential bias from self-reported productivity and mood ratings.
+- Since we have a limited amount of time to get data, the dataset will be limited approximately to one month of data, reducing the ability to generalize findings.
 
 ## Future Work
 - Expand the dataset to include multiple students for broader generalizability.
 - Incorporate additional variables such as sleep quality and stress levels.
 - Automate data logging for increased accuracy and convenience.
+## Conclusion
 
-## Repository Contents
-- `data/`: Datasets used in the analysis.
-- Jupyter notebooks (`.ipynb`) containing scripts for data preprocessing, analysis, and visualization.
-- `requirements.txt`: Lists project dependencies.
-- `README.md`: Instructions and details for reproducing the analysis.
+By the end of this project, I hope to answer the following questions:
+
+- Which weather conditions most significantly affect my academic productivity?
+- Can adjusting my study schedule based on weather conditions lead to measurable improvements?
+- How strongly does weather impact my mood and motivation?
+- How can I apply these insights practically to enhance my academic performance?
+
+This project isn't just about understanding the weather; it's about leveraging data science to optimize productivity and personal well-being. Whether it's studying, planning, or improving performance, recognizing the underlying patterns is essential.
+
+---
+
+I'm excited to see what the data reveals—and to turn these insights into a practical guide for smarter, more effective studying!
+
 
 
 
