@@ -61,8 +61,5 @@ Data will be recorded systematically, immediately after each study session, to m
 - `requirements.txt`: project dependencies
 - `README.md`: instructions to reproduce the analysis.
 
-## How to Reproduce
-Instructions to set up and reproduce the analysis will be provided clearly in `README.md`.
-
 
 
