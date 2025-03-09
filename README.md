@@ -1,65 +1,57 @@
 # Impact of Weather Conditions on Academic Productivity
 
-My name is Timur Agaev and I am a student from Sabancı University, and this is my term project. The aim of this project is to analyze how weather conditions influence my academic productivity.
-
-## Hypotheses
-
-Two hypotheses will be tested:
-
-- **First Hypothesis:** Academic productivity decreases significantly during adverse weather conditions (rainy, extremely cold, or cloudy days).
-- **Second Hypothesis:** Academic productivity increases on days with mild and sunny weather.
+## Overview
+The aim of this project is to analyze how weather conditions influence academic productivity by identifying patterns between weather variables (temperature, precipitation, cloud cover) and personal productivity measures (study hours, assignment completion rates, and mood ratings).
 
 ## Motivation
-Students frequently feel their productivity is affected by weather, potentially impacting their academic outcomes. By studying the relationship between weather and academic productivity, this project aims to optimize personal time management and provide strategies for improving productivity based on weather forecasts.
+Students frequently feel their productivity is affected by weather, potentially impacting their academic outcomes. Understanding the specific relationships between weather and productivity can inform better time management strategies and lead to more effective study schedules tailored to weather conditions.
 
-## Project Goal
-Identify and analyze patterns in how different weather conditions (temperature, rainfall, cloudiness) affect academic productivity, assessed through study hours, completed assignments, and mood ratings.
+## Project Objectives
+- Identify relationships between weather conditions and academic productivity.
+- Analyze how specific weather conditions correlate with increases or decreases in productivity.
+- Develop practical strategies to enhance academic productivity based on weather insights.
 
-## Data Sources & Collection
+## Hypotheses
+- **First Hypothesis:** Academic productivity decreases significantly during adverse weather conditions (rainy, extremely cold, or cloudy days).
+- **Second Hypothesis:** Academic productivity increases on days with mild and sunny weather conditions.
 
-### Weather Data:
-- Daily weather conditions (temperature, precipitation, cloud cover) sourced from the OpenWeatherMap API.
+## Methodology
 
-### Productivity Data:
-- Daily logs of study duration, assignment/task completion, and self-assessed productivity ratings (scale 1-5).
+### Data Collection
+#### Weather Data
+- Daily weather conditions (temperature, precipitation, cloud cover) obtained from the OpenWeatherMap API.
 
-Data will be recorded systematically, immediately after each study session, to minimize bias.
+#### Productivity Data
+- Daily logs of study duration, number of completed assignments/tasks, and self-assessed productivity ratings (scale 1-5).
 
-## Data Analysis
+Data will be collected immediately after study sessions to minimize recall bias.
 
-### Preprocessing:
-- Merging productivity and weather datasets by date.
-- Cleaning datasets and handling missing values.
+### Data Processing
+- Merge productivity and weather datasets by date.
+- Clean and structure datasets, addressing missing values and inconsistencies.
 
-### Exploratory Data Analysis:
-- Visualization of trends in productivity metrics related to weather conditions.
+### Data Analysis
+- **Exploratory Data Analysis (EDA):** Visualizations to identify productivity trends under various weather conditions.
+- **Statistical Analysis:** Correlation analyses and hypothesis testing (Mann-Whitney U tests, t-tests).
+- **Machine Learning:** Regression models (Linear Regression, Random Forest, Decision Tree) predicting academic productivity based on weather data.
 
-### Statistical Analysis:
-- Correlation analysis to find significant relationships.
-- Hypothesis tests (Mann-Whitney U tests, t-tests).
+## Findings
+(This section will be updated upon completion of data analysis.)
 
-### Machine Learning Techniques:
-- Regression models to predict productivity from weather conditions (Linear Regression, Random Forest).
+## Limitations
+- Data from a single individual limits the generalizability of findings.
+- Potential bias from self-reported productivity and mood ratings.
 
-## Findings (to be updated after analysis):
-- Summary of key findings will be presented here upon completion of analysis.
-
-## Limitations & Future Work
-
-### Limitations:
-- Data from a single individual may limit generalization.
-- Potential bias from self-reported productivity.
-
-### Future Improvements:
-- Include additional data sources (sleep, stress levels).
-- Extend data collection to more participants.
-- Implement automated data logging for improved accuracy.
+## Future Work
+- Expand the dataset to include multiple students for broader generalizability.
+- Incorporate additional variables such as sleep quality and stress levels.
+- Automate data logging for increased accuracy and convenience.
 
 ## Repository Contents
-- `data/` folder: contains datasets
-- Python scripts (`.ipynb`): data preprocessing, analysis, visualization
-- `requirements.txt`: project dependencies
-- `README.md`: instructions to reproduce the analysis.
+- `data/`: Datasets used in the analysis.
+- Jupyter notebooks (`.ipynb`) containing scripts for data preprocessing, analysis, and visualization.
+- `requirements.txt`: Lists project dependencies.
+- `README.md`: Instructions and details for reproducing the analysis.
 
 
 
