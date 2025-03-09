@@ -1,6 +1,6 @@
 # Impact of Weather Conditions on Academic Productivity
 
-I am a student from Sabancı University, and this is my term project. The aim of this project is to analyze how weather conditions influence my academic productivity.
+My name is Timur Agaev and I am a student from Sabancı University, and this is my term project. The aim of this project is to analyze how weather conditions influence my academic productivity.
 
 ## Hypotheses
 
