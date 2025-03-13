@@ -1,67 +1,60 @@
-# Impact of Weather Conditions on Academic Productivity
+# Analyzing the Correlation Between Anime Genres and Viewer Ratings
 
 ## Overview
-The aim of this project is to analyze how weather conditions influence academic productivity by identifying patterns between weather variables (temperature, precipitation, cloud cover) and personal productivity measures (study hours, assignment completion rates, and mood ratings).
+This project aims to explore and analyze the relationship between anime genres and their corresponding viewer ratings. By investigating this relationship, the study seeks to identify whether certain genres consistently achieve higher ratings or attract more viewers.
 
 ## Motivation
-Students frequently feel their productivity is affected by weather, potentially impacting their academic outcomes. Understanding the specific relationships between weather and productivity can inform better time management strategies and lead to more effective study schedules tailored to weather conditions.
+Understanding viewer preferences can significantly impact content creators, streaming services, and anime studios. This analysis provides valuable insights into trends in anime popularity, potentially guiding decisions related to anime production, licensing, and recommendations to viewers.
 
 ## Project Objectives
-- Identify relationships between weather conditions and academic productivity.
-- Analyze how specific weather conditions correlate with increases or decreases in productivity.
-- Develop practical strategies to enhance academic productivity based on weather insights.
+- Identify patterns in viewer ratings across various anime genres.
+- Analyze if specific genres consistently outperform others in terms of ratings and popularity.
+- Provide insights that could aid content recommendation systems or anime marketing strategies.
 
 ## Hypotheses
-- **First Hypothesis:** Academic productivity decreases significantly during adverse weather conditions (rainy, extremely cold, or cloudy days).
-- **Second Hypothesis:** Academic productivity increases on days with mild and sunny weather conditions.
+- **First Hypothesis:** Certain anime genres consistently have higher viewer ratings.
+- **Second Hypothesis:** Viewer ratings positively correlate with the popularity (number of members) of anime titles.
 
 ## Methodology
 
 ### Data Collection
-#### Weather Data
-- Daily weather conditions (temperature, precipitation, cloud cover) obtained from the OpenWeatherMap API.
+The dataset includes:
+- Anime ID
+- Name of the anime
+- Genre(s)
+- Type (TV, Movie, OVA, etc.)
+- Number of episodes
+- Viewer rating
+- Number of members (popularity metric)
 
-#### Productivity Data
-- Daily logs of study duration, number of completed assignments/tasks, and self-assessed productivity ratings (scale 1-5).
-
-Data will be collected immediately after study sessions to minimize recall bias.
+The dataset has already been collected and is publicly available, organized in a structured `.csv` format.
 
 ### Data Processing
-- Merge productivity and weather datasets by date.
-- Clean and structure datasets, addressing missing values and inconsistencies.
+- Data cleaning to handle missing or inconsistent values.
+- Categorization and encoding of genres for effective analysis.
+- Merging genre information with ratings and popularity metrics.
 
 ### Data Analysis
-- **Exploratory Data Analysis (EDA):** Visualizations to identify productivity trends under various weather conditions.
-- **Statistical Analysis:** Correlation analyses and hypothesis testing (Mann-Whitney U tests, t-tests).
-- **Machine Learning:** Regression models (Linear Regression, Random Forest, Decision Tree) predicting academic productivity based on weather data.
+- **Exploratory Data Analysis (EDA):** Visualization of ratings distributions across genres.
+- **Statistical Analysis:**
+  - Correlation analysis between genres, ratings, and popularity metrics.
+  - Hypothesis testing (e.g., ANOVA, Chi-square tests).
+- **Machine Learning Techniques:** Classification or regression models (Random Forest, Linear Regression, Decision Tree) to predict anime ratings based on genre and popularity metrics.
 
 ## Findings
 (This section will be updated upon completion of data analysis.)
 
 ## Limitations
-- Data from a single individual limits the generalizability of findings.
-- Potential bias from self-reported productivity and mood ratings.
-- Since we have a limited amount of time to get data, the dataset will be limited approximately to one month of data, reducing the ability to generalize findings.
+- Ratings might be subjective and influenced by viewer bias.
+- Genre definitions can overlap, complicating analysis.
 
 ## Future Work
-- Expand the dataset to include multiple students for broader generalizability.
-- Incorporate additional variables such as sleep quality and stress levels.
-- Automate data logging for increased accuracy and convenience.
-## Conclusion
+- Extend the analysis to include additional variables such as production studio, year of release, and episode length.
+- Explore temporal trends to understand changes in viewer preferences over time.
+- Utilize user reviews for sentiment analysis to enhance rating predictions.
 
-By the end of this project, I hope to answer the following questions:
-
-- Which weather conditions most significantly affect my academic productivity?
-- Can adjusting my study schedule based on weather conditions lead to measurable improvements?
-- How strongly does weather impact my mood and motivation?
-- How can I apply these insights practically to enhance my academic performance?
-
-This project isn't just about understanding the weather; it's about leveraging data science to optimize productivity and personal well-being. Whether it's studying, planning, or improving performance, recognizing the underlying patterns is essential.
-
----
-
-I'm excited to see what the data reveals—and to turn these insights into a practical guide for smarter, more effective studying!
-
-
-
-
+## Repository Structure
+- `data/`: Dataset used for analysis.
+- Python scripts (`.ipynb`): Include data preprocessing, exploratory analysis, and machine learning models.
+- `requirements.txt`: Project dependencies.
+- `README.md`: Instructions for reproducing the analysis.
