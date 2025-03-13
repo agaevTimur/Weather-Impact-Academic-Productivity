@@ -27,8 +27,6 @@ The dataset includes:
 - Viewer rating
 - Number of members (popularity metric)
 
-The dataset has already been collected and is publicly available, organized in a structured `.csv` format.
-
 ### Data Processing
 - Data cleaning to handle missing or inconsistent values.
 - Categorization and encoding of genres for effective analysis.
